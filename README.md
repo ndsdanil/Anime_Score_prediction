@@ -3,7 +3,7 @@ Machine Learning project, model which helps to predict the score of Anime series
 
 Dear user!
 
-Here you can see the Machine Learning project devoted to Anime series score prediction. The model is capable to predict the result with a probability of 74% (cross-validation score).
+Here you can see the Machine Learning project devoted to Anime series score prediction. The model is capable to predict the result with a MAE of 0.7579345380059139 (cross-validation score).
 
 I used the dataset ['Anime DataSet 2022'](https://www.kaggle.com/datasets/vishalmane10/anime-dataset-2022). Big thank you to Vishal Mane for this dataset.
 
