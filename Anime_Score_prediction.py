@@ -10,7 +10,7 @@ import seaborn as sns
 from sklearn.feature_selection import mutual_info_regression
 
 #Checking data
-train_data = pd.read_csv(r"C:\Users\MyPC\Documents\Python projects\Check google trends\archive\Anime.csv")
+train_data = pd.read_csv(r"C:\Users\MyPC\Documents\Python projects\Anime.csv")
 #we cant use the rows without information about anime raiting to train model, lets drop these rows with empty raiting
 train_data = train_data.dropna(axis = 0, subset=['Rating'])
 train_data = train_data.dropna(axis = 0, subset=['Release_year'])
